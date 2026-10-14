@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "test": "Qt file drop and duplicate-path suppression",
+      "result": "PASS"
+    },
+    {
+      "test": "GUI button sequentially converts both supplied RAW files",
+      "result": "PASS"
+    },
+    {
+      "test": "Independent 51-row / 1020-data-cell RAW verification and template styles",
+      "result": "PASS"
+    },
+    {
+      "test": "Existing-file protection",
+      "result": "PASS"
+    },
+    {
+      "test": "1200-file folder queue",
+      "result": "PASS"
+    },
+    {
+      "test": "57-row BOM expands beyond the 32-row blank template",
+      "result": "PASS"
+    },
+    {
+      "test": "Bad input fails independently and next file completes",
+      "result": "PASS"
+    },
+    {
+      "test": "Same product in two directories does not overwrite within a batch",
+      "result": "PASS"
+    },
+    {
+      "test": "Cancellation finishes current file and cancels remaining queue",
+      "result": "PASS"
+    },
+    {
+      "test": "Unit text is exact, non-finite quantity is rejected",
+      "result": "PASS"
+    }
+  ]
+}

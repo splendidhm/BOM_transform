@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.log
+
+# Local application state and generated business files
+BOM_변환기/settings.json
+BOM_변환기/완료파일/
+BOM_변환기/tests/gui_preview.png
+
+# Analysis and prototype outputs
+outputs/
+qa/
+*.inspect.ndjson
+
+# Earlier one-off prototypes; final implementation is BOM_변환기/
+/convert_bom.mjs
+/preserve_template.py
+/run_test.ps1
+/test_bom.mjs
+/verify_bom.py
+/verify_raw_mapping.py
+/verify_unit_only_change.py
+
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
